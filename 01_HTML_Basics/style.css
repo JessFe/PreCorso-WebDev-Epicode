@@ -1,0 +1,127 @@
+body {
+    background-color: #070507;
+    margin: 10px 0px;
+    font-family: Verdana;
+}
+
+#topbar {
+    border-bottom: 2px solid #11dbdb;
+    text-align: right;
+
+}
+
+.icons {
+    width: 38px;
+    height: 38px;
+}
+
+#cover {
+    background-image: url(milano.jpg);
+    background-size: cover; width: 100%;
+    max-height: 350px;
+    padding: 100px 0px 120px 0px;
+    text-align: center;
+    color: #11dbdb;
+}
+
+#cover-maintxt {
+    font-size: 32px;
+    text-shadow: 2px 5px 10px black, 0 0 40px blueviolet;
+    line-height: 2px;
+    -webkit-text-stroke: 1px darkslateblue;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.cover-txt {
+    display: inline;
+    color: #e6dcff;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+#content {
+    color: rgb(230, 220, 255, 0.6);
+    margin: 20px 40px;
+    text-align: center;
+    max-width: 100%;
+}
+
+#content h3, h4 {
+    color: #e6dcff;
+    text-align: left;
+}
+
+#content-picdiv {
+    display: inline-block;
+    width: 250px;
+}
+
+#content-pic {
+    height: 200px;
+    border: 7px solid #11dbdb;
+    padding: 20px;
+    border-image: linear-gradient(130deg, #11dbdb 30%, #21144d 50%, #070507 70%) 1;
+
+}
+
+#content-1stp {
+    display: inline-block;
+    padding: 0px 20px;
+    text-align: left;
+    width: 600px;
+}
+
+#content-2ndp {
+    width: 850px;
+    margin: auto;
+    text-align: center;
+}
+
+#content-2ndp p {
+    text-align: left;
+}
+
+ul {
+    text-align: left;
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2606";
+    color: #11dbdb;
+    display: inline-block;
+    width: 2em;
+    margin-left: -2em;
+  }
+
+.list-items {
+    color: #e6dcff;
+}
+
+#footer {
+    border-top: 2px solid #11dbdb;
+    text-align: left;
+}
+
+#footer-content {
+    padding: 0px 15px;
+}
+
+#footer-content h6 {
+    color: #11dbdb;
+    margin: 8px;
+}
+
+#footer-content a {
+    color: #e6dcff;
+    font-size: 0.8em;
+    margin: 7px;
+}
+
+#credits {
+    text-align: right;
+    color: rgb(230, 220, 255, 0.5);
+    font-size: 0.6em;
+    font-style: italic;
+}
+

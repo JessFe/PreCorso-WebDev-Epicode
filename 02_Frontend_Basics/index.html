@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Challenge 2: Frontend Basics</title>
+</head>
+<body>
+    <div id="top">
+        <p class="logo">♫</p>
+        <h1>Benvenuto/a!</h1>
+        <h3>Parlaci un pò di te</h3>
+    </div>
+    <form onsubmit="alert('Registrazione inviata!')">
+        <div>
+            <label>Nome:
+            <input type="text" name="nome" placeholder="Il tuo nome" required minlength="2" maxlength="25" size="25" />
+            </label>
+            <label>Cognome:
+            <input type="text" name="cognome" placeholder="Il tuo cognome" required minlength="2" maxlength="25" size="25" />
+            </label>
+        </div>
+        <div>
+            <label>
+                Data di nascita:
+            <input type="date" name="nascita" required min="1900-01-01" max="2023-01-01"/>
+            </label>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Dicci cosa ti piace ascoltare</legend>
+                <div>
+                    <input type="checkbox" id="blues" name="genere" value="Blues">
+                    <label for="blues">Blues</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="classica" name="genere" value="Classica">
+                    <label for="classica">Classica</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="country" name="genere" value="Country">
+                    <label for="country">Country</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="dance" name="genere" value="Dance">
+                    <label for="dance">Dance</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="indie" name="genere" value="Indie">
+                    <label for="indie">Indie</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="jazz" name="genere" value="Jazz">
+                    <label for="jazz">Jazz</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="metal" name="genere" value="Metal">
+                    <label for="metal">Metal</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="pop" name="genere" value="Pop">
+                    <label for="pop">Pop</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="punk" name="genere" value="Punk">
+                    <label for="punk">Punk</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="raphiphop" name="genere" value="Rap/Hip-hop">
+                    <label for="raphiphop">Rap/Hip-hop</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="rock" name="genere" value="Rock">
+                    <label for="rock">Rock</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="techno" name="genere" value="Techno">
+                    <label for="techno">Techno</label>
+                </div>
+            </fieldset>
+
+        </div>
+        <div>
+            <label>Email:
+            <input type="email" name="email" placeholder="Il tuo indirizzo email" required minlength="5" size="30" />
+            </label>
+            <label>Tel:
+            <input type="number" name="tel" placeholder="333 0000000" required minlength="8" size="30" />
+            </label>
+        </div>
+        <div>
+            <label>Password:
+            <input type="password" placeholder="Scegli una password" required minlength="5" size="30" />
+            </label>
+        </div>
+
+        <div id="terms">
+            <h5>Termini e condizioni</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed do eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullamco laboriosam, nisi ut aliquid ex ea commodi consequatur. Duis aute irure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <input type="radio" id="accetto" name="consenso" required value="Accetto" />
+            <label for="accetto">Accetto</label>
+            <input type="radio" id="nonaccetto" name="consenso" value="Non accetto" />
+            <label for="nonaccetto">Non accetto</label>
+
+        </div>
+        <button type="submit">Invia registrazione</button>
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,72 @@
+body {
+    font-family: Verdana;
+    color: #ffffdd;
+    font-size: 0.9em;
+    background-color: #070507;
+    margin: 20px;
+  }
+
+  #top {
+    width: 600px;
+    margin: 40px auto;
+    text-align: center;
+  }
+
+  .logo {
+    color: darkorange;
+    font-size: 50px;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+  }
+
+  h1, h3, h5 {
+    color: orange;
+  }
+  
+  form {
+    width: 570px;
+    margin: 0 auto;
+  }
+  
+  div {
+    margin-bottom: 20px;
+  }
+
+  label {
+    padding:  7px;
+  }
+
+  input {
+    background: #191719;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    color: #555555;
+  }
+  
+  fieldset {
+    background: #191719;
+    border: 2px solid orangered;
+    border-radius: 5px;
+  }
+  
+  legend {
+    padding: 10px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    background-color: rgb(255, 165, 0, 0.2);
+  }
+
+  #terms {
+    background: #191719;
+    border-radius: 5px;
+    color: #555555;
+    padding: 5px 15px 15px 15px;
+  }
+
+  button {
+    padding: 10px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    background-color: rgb(255, 165, 0, 0.2);
+    color: #ffffdd;
+  }
