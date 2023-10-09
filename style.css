@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --main-bg-color: #242424;
+    --main-bg-color: #141414;
     --text-highlights-color: #59f3ab;
     --bars-border-color: #f72664;
     --bars-border: 2px solid var(--bars-border-color);
